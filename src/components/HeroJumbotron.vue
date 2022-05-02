@@ -1,5 +1,5 @@
 <template>
-    <div class=hello>
+    <div class=jumbo>
         <img src="https://picsum.photos/600/400" alt="foto_random">
     </div>
 </template>
