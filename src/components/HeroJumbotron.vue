@@ -17,6 +17,7 @@ export default {
 <style scoped lang="scss">
     img{
         filter: drop-shadow(2px 4px 6px black);
+        border-radius: 20px;
     }
 </style>
     
