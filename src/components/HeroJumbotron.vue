@@ -1,3 +1,22 @@
 <template>
-  <img src="https://picsum.photos/200/300" alt="foto_random">
+    <div class=hello>
+        <img src="https://picsum.photos/600/400" alt="foto_random">
+    </div>
 </template>
+
+<script>
+export default {
+  name: 'HeroJumbotron',
+  props: {
+    msg: String
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+    img{
+        filter: drop-shadow(2px 4px 6px black);
+    }
+</style>
+    
