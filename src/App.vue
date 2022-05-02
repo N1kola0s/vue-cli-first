@@ -10,6 +10,7 @@
 import Title from './components/Title.vue'
 import HeroJumbotron from './components/HeroJumbotron.vue'
 
+
 export default {
   name: 'App',
   components: {
